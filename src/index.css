@@ -1,0 +1,820 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: Poppins, sans-serif;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+    color: #314252;
+    overflow-x: hidden;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px !important;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h6 span {
+    font-size: initial;
+    width: 100%;
+}
+
+p,
+ul li {
+    font-size: 18px;
+}
+
+.h6,
+h6 {
+    font-size: 24px !important;
+    font-weight: 500;
+    margin-bottom: 50px
+}
+
+h5 {
+    font-size: 32px !important;
+}
+
+.h4,
+h4 {
+    font-size: 24px !important;
+    font-weight: 700
+}
+
+h3:not(.box-item):not(.insights):not(.title):not(.wrapper13 h3) {
+    font-size: 54px !important;
+}
+
+h2,
+h1 {
+    font-size: 54px !important;
+}
+
+.nav-item {
+    font-size: 40px;
+}
+
+.AlBanner {
+    font-size: 100px !important;
+}
+
+.AlBanner+p {
+    font-size: 45px !important;
+}
+
+.numlg {
+    font-size: 150px;
+}
+
+.nummd {
+    font-size: 102px;
+}
+
+.numlg p {
+    font-size: 18px;
+}
+
+.menu-item {
+    font-size: 16px !important;
+}
+
+.numsm {
+    font-size: 40px !important;
+    font-weight: 500;
+}
+
+.numsm+ul+p {
+    font-size: 10px !important;
+}
+
+.wrapper13 h3 {
+    font-size: 20px !important;
+}
+
+@media (min-width:900px) {
+    .img-wrapper2 {
+        width: fit-content;
+    }
+
+    .img-wrapper1 {
+        flex-wrap: nowrap;
+    }
+}
+
+@media (min-width:0px) and (max-width:900px) {
+    .img-wrapper2 {
+        width: 65%;
+    }
+
+    .img-wrapper1 {
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width:0px) and (max-width:666px) {
+
+    .box-item {
+        font-size: 18px !important;
+        font-weight: normal;
+        margin-bottom: 14px;
+    }
+
+    .nav-item {
+        font-size: 18px;
+    }
+
+    .h1,
+    .h2,
+    h1,
+    h2:not(.menu-h) {
+        font-size: 22px !important;
+        letter-spacing: 0;
+        margin-bottom: 20px
+    }
+
+    .h3,
+    h3 {
+        font-size: 15px !important;
+        font-weight: 600;
+        letter-spacing: 0;
+        margin-bottom: 15px
+    }
+
+    .h3_head.h3,
+    h3.h3_head {
+        font-size: 22px !important;
+        letter-spacing: 0;
+        margin-bottom: 20px
+    }
+
+    .h4,
+    h4 {
+        font-size: 18px !important;
+        font-weight: 700;
+        letter-spacing: 0;
+        margin-bottom: 10px
+    }
+
+    .h5,
+    h5 {
+        font-size: 18px !important;
+        font-weight: 600;
+    }
+
+    .h5,
+    .h6,
+    h5,
+    h6 {
+        letter-spacing: 0;
+        margin-bottom: 20px
+    }
+
+    .h6,
+    h6 {
+        font-size: 16px !important;
+        font-weight: 500;
+    }
+
+    p {
+        margin-bottom: 20px
+    }
+
+    p,
+    ul li {
+        font-size: 13px !important;
+    }
+
+    ul li {
+        margin-bottom: 0
+    }
+
+    .AlBanner {
+        font-size: 45px !important;
+    }
+
+    .AlBanner+p {
+        font-size: 15px !important;
+    }
+
+    .numlg {
+        font-size: 50px;
+    }
+
+    .nummd {
+        font-size: 35px;
+    }
+
+    .numlg p {
+        font-size: 13px !important;
+    }
+}
+
+@media(min-width: 501px)and (max-width:767px) {
+
+    .box-item {
+        font-size: 16px !important;
+        font-weight: normal;
+        margin-bottom: 14px;
+    }
+
+    .container {
+        max-width: 700px
+    }
+
+    .nav-item {
+        font-size: 23px;
+    }
+
+    .h1,
+    .h2,
+    h1,
+    h2:not(.menu-h) {
+        font-size: 25px !important;
+        letter-spacing: 1px;
+        margin-bottom: 15px
+    }
+
+    .h3,
+    h3 {
+        font-size: 16px !important;
+        font-weight: 600;
+        letter-spacing: 0;
+        margin-bottom: 15px
+    }
+
+    .h3_head.h3,
+    h3.h3_head {
+        font-size: 25px !important;
+        letter-spacing: 1px;
+        margin-bottom: 15px
+    }
+
+    .h4,
+    h4 {
+        font-size: 18px !important;
+        font-weight: 700;
+        letter-spacing: 0;
+        margin-bottom: 10px
+    }
+
+    .h5,
+    h5 {
+        font-size: 18px !important;
+        font-weight: 600;
+    }
+
+    .h5,
+    .h6,
+    h5,
+    h6 {
+        letter-spacing: 0;
+        margin-bottom: 20px
+    }
+
+    .h6,
+    h6 {
+        font-size: 15px !important;
+        font-weight: 500;
+    }
+
+    p {
+        margin-bottom: 15px
+    }
+
+    p,
+    ul li {
+        font-size: 12px !important;
+    }
+
+    ul li {
+        margin-bottom: 0
+    }
+
+    .AlBanner {
+        font-size: 40px !important;
+    }
+
+    .AlBanner+p {
+        font-size: 16px !important;
+    }
+
+    .numlg {
+        font-size: 50px;
+    }
+
+    .nummd {
+        font-size: 35px;
+    }
+
+    .numlg p {
+        font-size: 12px !important;
+    }
+}
+
+@media(min-width: 768px)and (max-width:991px) {
+
+    .box-item {
+        font-size: 18px !important;
+        font-weight: normal;
+        margin-bottom: 14px;
+    }
+
+    .container {
+        max-width: 860px
+    }
+
+    .nav-item {
+        font-size: 24px;
+    }
+
+    .h1,
+    .h2,
+    h1,
+    h2:not(.menu-h) {
+        font-size: 25px !important;
+        letter-spacing: 1px;
+        margin-bottom: 15px
+    }
+
+    .h3,
+    h3 {
+        font-size: 16px !important;
+        font-weight: 600;
+        letter-spacing: 0;
+        margin-bottom: 15px
+    }
+
+    .h3_head.h3,
+    h3.h3_head {
+        font-size: 25px !important;
+        letter-spacing: 1px;
+        margin-bottom: 15px
+    }
+
+    .h4,
+    h4 {
+        font-size: 18px !important;
+        font-weight: 700;
+        letter-spacing: 0;
+        margin-bottom: 10px
+    }
+
+    .h5,
+    h5 {
+        font-size: 18px !important;
+        font-weight: 600;
+    }
+
+    .h5,
+    .h6,
+    h5,
+    h6 {
+        letter-spacing: 0;
+        margin-bottom: 20px
+    }
+
+    .h6,
+    h6 {
+        font-size: 15px !important;
+        font-weight: 500;
+    }
+
+    p {
+        margin-bottom: 15px
+    }
+
+    p,
+    ul li {
+        font-size: 12px !important;
+    }
+
+    ul li {
+        margin-bottom: 0
+    }
+
+    .AlBanner {
+        font-size: 45px !important;
+    }
+
+    .AlBanner+p {
+        font-size: 18px !important;
+    }
+
+    .numlg {
+        font-size: 60px;
+    }
+
+    .nummd {
+        font-size: 35px;
+    }
+
+    .numlg p {
+        font-size: 12px !important;
+    }
+
+    .menu-item {
+        font-size: 11px !important;
+    }
+}
+
+@media(min-width: 992px)and (max-width:1199px) {
+
+    .box-item {
+        font-size: 20px !important;
+        font-weight: normal;
+        margin-bottom: 14px;
+    }
+
+    .container {
+        max-width: 900px
+    }
+
+    .nav-item {
+        font-size: 26px;
+    }
+
+    .h1,
+    .h2,
+    h1,
+    h2:not(.menu-h) {
+        font-size: 30px !important;
+        letter-spacing: 1px;
+    }
+
+    .h3,
+    h3 {
+        font-size: 18px !important;
+        font-weight: 600;
+        letter-spacing: 0;
+        margin-bottom: 20px
+    }
+
+    .h3_head.h3,
+    h3.h3_head {
+        font-size: 30px !important;
+        letter-spacing: 1px;
+    }
+
+    .h4,
+    h4 {
+        font-size: 18px !important;
+        font-weight: 700;
+        letter-spacing: 0;
+        margin-bottom: 10px
+    }
+
+    .h5,
+    h5 {
+        font-size: 18px !important;
+        font-weight: 600;
+    }
+
+    .h5,
+    .h6,
+    h5,
+    h6 {
+        letter-spacing: 0;
+        margin-bottom: 20px
+    }
+
+    .h6,
+    h6 {
+        font-size: 16px !important;
+        font-weight: 500;
+    }
+
+    p,
+    ul li {
+        font-size: 13px !important;
+    }
+
+    ul li {
+        margin-bottom: 0
+    }
+
+    .AlBanner {
+        font-size: 60px !important;
+    }
+
+    .AlBanner+p {
+        font-size: 22px !important;
+    }
+
+    .numlg {
+        font-size: 60px;
+    }
+
+    .nummd {
+        font-size: 40px;
+    }
+
+    .numlg p {
+        font-size: 13px !important;
+    }
+
+    .menu-item {
+        font-size: 11px !important;
+    }
+}
+
+@media(min-width: 1200px)and (max-width:1399px) {
+
+    .box-item {
+        font-size: 20px !important;
+        font-weight: normal;
+        margin-bottom: 14px;
+    }
+
+    .container {
+        max-width: 1130px
+    }
+
+    .nav-item {
+        font-size: 30px;
+    }
+
+    .h1,
+    .h2,
+    h1,
+    h2:not(.menu-h) {
+        font-size: 35px !important;
+    }
+
+    .h3,
+    h3 {
+        font-size: 20px !important;
+        font-weight: 600;
+        margin-bottom: 20px
+    }
+
+    .h3_head.h3,
+    h3.h3_head {
+        font-size: 35px !important;
+    }
+
+    .h4,
+    h4 {
+        font-size: 18px !important;
+        font-weight: 700;
+        margin-bottom: 10px
+    }
+
+    .h5,
+    h5 {
+        font-weight: 600
+    }
+
+    .h5,
+    .h6,
+    h5,
+    h6 {
+        font-size: 18px !important;
+        margin-bottom: 20px
+    }
+
+    .h6,
+    h6 {
+        font-weight: 500
+    }
+
+    p,
+    ul li {
+        font-size: 14px !important;
+    }
+
+    ul li {
+        margin-bottom: 0
+    }
+
+    .AlBanner {
+        font-size: 60px !important;
+    }
+
+    .AlBanner+p {
+        font-size: 22px !important;
+    }
+
+    .numlg {
+        font-size: 90px;
+    }
+
+    .nummd {
+        font-size: 60px;
+    }
+
+    .numlg p {
+        font-size: 14px !important;
+    }
+
+    .menu-item {
+        font-size: 13px !important;
+    }
+}
+
+@media(min-width: 1400px)and (max-width:1599px) {
+
+    .box-item {
+        font-size: 20px !important;
+        font-weight: normal;
+        margin-bottom: 14px;
+    }
+
+    .container {
+        max-width: 1240px
+    }
+
+    .nav-item {
+        font-size: 30px;
+    }
+
+    .h1,
+    .h2,
+    h1,
+    h2:not(.menu-h) {
+        font-size: 40px !important;
+    }
+
+    .h3,
+    h3 {
+        font-size: 24px !important;
+        font-weight: 600;
+        margin-bottom: 20px
+    }
+
+    .h3_head.h3,
+    h3.h3_head {
+        font-size: 40px !important;
+    }
+
+    .h4,
+    h4 {
+        font-size: 20px !important;
+        font-weight: 700;
+        margin-bottom: 10px
+    }
+
+    .h5,
+    h5 {
+        font-size: 20px !important;
+        font-weight: 600;
+        margin-bottom: 20px
+    }
+
+    .h6,
+    h6 {
+        font-size: 20px !important;
+        font-weight: 500;
+        margin-bottom: 30px
+    }
+
+    p {
+        margin-bottom: 20px
+    }
+
+    p,
+    ul li {
+        font-size: 15px !important;
+    }
+
+    ul li {
+        margin-bottom: 0
+    }
+
+    .AlBanner {
+        font-size: 70px !important;
+    }
+
+    .AlBanner+p {
+        font-size: 25px !important;
+    }
+
+    .numlg {
+        font-size: 110px;
+    }
+
+    .nummd {
+        font-size: 70px;
+    }
+
+    .numlg p {
+        font-size: 15px !important;
+    }
+
+    .menu-item {
+        font-size: 14px !important;
+    }
+}
+
+@media(min-width: 1600px)and (max-width:1800px) {
+
+    .box-item {
+        font-size: 20px !important;
+        font-weight: normal;
+        margin-bottom: 14px;
+    }
+
+    .container {
+        max-width: 1340px
+    }
+
+    .nav-item {
+        font-size: 30px;
+    }
+
+    .h1,
+    .h2,
+    h1,
+    h2:not(.menu-h) {
+        font-size: 44px !important;
+    }
+
+    .h3,
+    h3 {
+        font-size: 28px !important;
+        font-weight: 600;
+        margin-bottom: 20px
+    }
+
+    .h3_head.h3,
+    h3.h3_head {
+        font-size: 44px !important;
+    }
+
+    .h4,
+    h4 {
+        font-size: 24px !important;
+        font-weight: 700
+    }
+
+    .h4,
+    .h5,
+    h4,
+    h5 {
+        margin-bottom: 20px
+    }
+
+    .h5,
+    h5 {
+        font-size: 22px !important;
+        font-weight: 600
+    }
+
+    .h6,
+    h6 {
+        font-size: 22px !important;
+        font-weight: 500;
+        margin-bottom: 50px
+    }
+
+    p {
+        margin-bottom: 20px
+    }
+
+    p,
+    ul li {
+        font-size: 16px !important;
+    }
+
+    ul li {
+        margin-bottom: 0
+    }
+
+    .AlBanner {
+        font-size: 80px !important;
+    }
+
+    .AlBanner+p {
+        font-size: 28px !important;
+    }
+
+    .numlg {
+        font-size: 130px;
+    }
+
+    .nummd {
+        font-size: 80px;
+    }
+
+    .numlg p {
+        font-size: 16px !important;
+    }
+
+    .menu-item {
+        font-size: 14px !important;
+    }
+}
