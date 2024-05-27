@@ -1,4 +1,13 @@
-export default function HeaderDD({ stateOne, stateTwo, stateThree }) {
+import { useState } from "react";
+
+export default function HeaderDD({ stateOne, stateTwo, stateThree, handleMenus, stateOfMenus }) {
+
+    const [data, setData] = useState("");
+
+    function handleMouse() {
+        handleMenus(data);
+    }
+
     return (
         <>
             <section
@@ -29,6 +38,8 @@ export default function HeaderDD({ stateOne, stateTwo, stateThree }) {
             </section>
             <section
                 id="megamenu1"
+                onMouseOver={ }
+                onMouseOut={ }
                 className={`w-full fixed z-[191] bg-[white] shadow top-[81px] flex flex-col ${stateOne}`}
             >
                 <div className="flex">

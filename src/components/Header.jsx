@@ -6,6 +6,7 @@ export default function Header() {
     const [stateOfMenu1, setStateOfMenu1] = useState("hidden");
     const [stateOfMenu2, setStateOfMenu2] = useState("hidden");
     const [stateOfMenu3, setStateOfMenu3] = useState("hidden");
+    const [stateOfMenus, setStateOfMenus] = useState("")
 
     function handleMegaMenus(num) {
         if (num == 1) {
@@ -26,6 +27,9 @@ export default function Header() {
         if (num == 6) {
             setStateOfMenu3("hidden");
         }
+    }
+    function handleMenus(data) {
+        setStateOfMenus(data)
     }
 
     return (
@@ -267,7 +271,7 @@ export default function Header() {
                     </a>
                 </div>
             </nav>
-            <HeaderDD stateOne={stateOfMenu1} stateTwo={stateOfMenu2} stateThree={stateOfMenu3} />
+            <HeaderDD stateOne={stateOfMenu1} stateTwo={stateOfMenu2} stateThree={stateOfMenu3} handleMenus={handleMenus} stateOfMenus={stateOfMenus} />
         </header>
 
     );
