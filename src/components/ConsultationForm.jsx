@@ -2,7 +2,7 @@ import "/src/index.css"
 
 export default function ConsultationForm() {
     return (
-        <div className="flex flex-col md:w-[33%] w-[45%] bg-[#ffffff] p-10 shadow-lg rounded-2xl">
+        <div className="flex flex-col md:w-[33%] w-[45%] relative -top-[90px] bg-[#ffffff] p-10 shadow-lg rounded-2xl">
             <h2 className="font-bold">
                 Book a Free <span className="text-[#efcb19]">Consultation</span>
             </h2>
@@ -35,6 +35,10 @@ export default function ConsultationForm() {
                     placeholder="Describe Your Projects Need."
                     id="needs"
                 />
+                <div className="flex flex-col items-center justify-center w-full">
+                    <p className="py-3">By submitting this form, you agree to our <a className="text-[#efcb19]" href="">Privacy Policy.</a></p>
+                    <button className="w-[60%] py-2 text-[#efcb19] border-[#efcb19] border-2 rounded-full" type="submit">Get in Touch</button>
+                </div>
             </form>
         </div>
     );
