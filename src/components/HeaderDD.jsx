@@ -4,32 +4,6 @@ export default function HeaderDD({ stateOne, stateTwo, stateThree, stateFour, ha
     return (
         <>
             <section
-                id="drop-D"
-                className="flex flex-col absolute top-[81px] right-0 z-[102] bg-[white] shadow-md p-5 hidden"
-            >
-                <a href="" className="p-2 text-[13px]">
-                    About Almubdieuntech
-                </a>
-                <a href="" className="p-2 text-[13px]">
-                    Life at Almubdieuntech
-                </a>
-                <a href="" className="p-2 text-[13px]">
-                    Blogs
-                </a>
-                <a href="" className="p-2 text-[13px]">
-                    Press
-                </a>
-                <a href="" className="p-2 text-[13px]">
-                    Podcast
-                </a>
-                <a href="" className="p-2 text-[13px]">
-                    Events
-                </a>
-                <a href="" className="p-2 text-[13px]">
-                    Referral Program
-                </a>
-            </section>
-            <section
                 id="megamenu1"
                 onMouseOver={() => handleMegaMenus(1)}
                 onMouseOut={() => handleMegaMenus(5)}
@@ -377,35 +351,36 @@ export default function HeaderDD({ stateOne, stateTwo, stateThree, stateFour, ha
                     </div>
                 </div>
             </section>
-            <section
-  id="drop-D"
-  className={`flex flex-col absolute top-[81px] right-0 z-[102] bg-[white] shadow-md p-5 ${stateFour}`}
-  onMouseOver={() => handleMegaMenus(4)}
-  onMouseOut={() => handleMegaMenus(8)}
->
-  <a href="" className="p-2 text-[13px]">
-    About Almubdieuntech
-  </a>
-  <a href="" className="p-2 text-[13px]">
-    Life at Almubdieuntech
-  </a>
-  <a href="" className="p-2 text-[13px]">
-    Blogs
-  </a>
-  <a href="" className="p-2 text-[13px]">
-    Press
-  </a>
-  <a href="" className="p-2 text-[13px]">
-    Podcast
-  </a>
-  <a href="" className="p-2 text-[13px]">
-    Events
-  </a>
-  <a href="" className="p-2 text-[13px]">
-    Referral Program
-  </a>
-</section>
-
+            <section className="flex items-center max-w-[1900px] w-full md:px-[8%] relative">
+                <section
+                    id="drop-D"
+                    className={`flex flex-col absolute top-[81px] right-[10%] z-[102] bg-[white] shadow-md p-5 ${stateFour}`}
+                    onMouseOver={() => handleMegaMenus(4)}
+                    onMouseOut={() => handleMegaMenus(8)}
+                >
+                    <a href="" className="p-2 text-[13px]">
+                        About Almubdieuntech
+                    </a>
+                    <a href="" className="p-2 text-[13px]">
+                        Life at Almubdieuntech
+                    </a>
+                    <a href="" className="p-2 text-[13px]">
+                        Blogs
+                    </a>
+                    <a href="" className="p-2 text-[13px]">
+                        Press
+                    </a>
+                    <a href="" className="p-2 text-[13px]">
+                        Podcast
+                    </a>
+                    <a href="" className="p-2 text-[13px]">
+                        Events
+                    </a>
+                    <a href="" className="p-2 text-[13px]">
+                        Referral Program
+                    </a>
+                </section>
+            </section>
         </>
     )
 }

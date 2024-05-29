@@ -54,7 +54,7 @@ export default function Header() {
                                 href="/services/"
                                 className="py-[30px] px-[18px] md:text-[11px] lg:text-[13px] font-[500] transition-all duration-800 relative"
                                 onMouseOver={() => handleMegaMenus(1)}
-                                onMouseOut={() => handleMegaMenus(4)}
+                                onMouseOut={() => handleMegaMenus(5)}
                             >
                                 Services
                             </a>
@@ -62,7 +62,7 @@ export default function Header() {
                                 href="/solution/"
                                 className="py-[30px] px-[18px] md:text-[11px] lg:text-[13px] font-[500] transition-all duration-800 relative"
                                 onMouseOver={() => handleMegaMenus(2)}
-                                onMouseOut={() => handleMegaMenus(5)}
+                                onMouseOut={() => handleMegaMenus(6)}
                             >
                                 Solution
                             </a>
@@ -70,7 +70,7 @@ export default function Header() {
                                 href=""
                                 className="py-[30px] px-[18px] md:text-[11px] lg:text-[13px] font-[500] transition-all duration-800 relative"
                                 onMouseOver={() => handleMegaMenus(3)}
-                                onMouseOut={() => handleMegaMenus(6)}
+                                onMouseOut={() => handleMegaMenus(7)}
                             >
                                 Technologies
                             </a>
@@ -88,7 +88,10 @@ export default function Header() {
                             </a>
                             <a
                                 href=""
-                                className="py-[30px] px-[18px] md:text-[11px] lg:text-[13px] font-[500] transition-all duration-800 relative">
+                                className="py-[30px] px-[18px] md:text-[11px] lg:text-[13px] font-[500] transition-all duration-800 relative"
+                                onMouseOver={() => handleMegaMenus(4)}
+                                onMouseOut={() => handleMegaMenus(8)}
+                            >
                                 Insights
                             </a>
                             <a
