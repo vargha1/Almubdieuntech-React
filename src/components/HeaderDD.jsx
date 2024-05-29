@@ -1,13 +1,6 @@
 import { useState } from "react";
 
-export default function HeaderDD({ stateOne, stateTwo, stateThree, handleMenus, stateOfMenus }) {
-
-    const [data, setData] = useState("");
-
-    function handleMouse() {
-        handleMenus(data);
-    }
-
+export default function HeaderDD({ stateOne, stateTwo, stateThree, stateFour, handleMegaMenus }) {
     return (
         <>
             <section
@@ -38,8 +31,8 @@ export default function HeaderDD({ stateOne, stateTwo, stateThree, handleMenus, 
             </section>
             <section
                 id="megamenu1"
-                onMouseOver={ }
-                onMouseOut={ }
+                onMouseOver={() => handleMegaMenus(1)}
+                onMouseOut={() => handleMegaMenus(5)}
                 className={`w-full fixed z-[191] bg-[white] shadow top-[81px] flex flex-col ${stateOne}`}
             >
                 <div className="flex">
@@ -163,6 +156,8 @@ export default function HeaderDD({ stateOne, stateTwo, stateThree, handleMenus, 
             </section>
             <section
                 id="megamenu2"
+                onMouseOver={() => handleMegaMenus(2)}
+                onMouseOut={() => handleMegaMenus(6)}
                 className={`w-full fixed z-[191] bg-[white] shadow top-[81px] flex flex-col ${stateTwo}`}
             >
                 <div className="flex">
@@ -277,6 +272,8 @@ export default function HeaderDD({ stateOne, stateTwo, stateThree, handleMenus, 
             </section>
             <section
                 id="megamenu3"
+                onMouseOver={() => handleMegaMenus(3)}
+                onMouseOut={() => handleMegaMenus(7)}
                 className={`w-full fixed z-[191] bg-[white] shadow top-[81px] flex flex-col ${stateThree}`}
             >
                 <div className="flex">
@@ -380,6 +377,35 @@ export default function HeaderDD({ stateOne, stateTwo, stateThree, handleMenus, 
                     </div>
                 </div>
             </section>
+            <section
+  id="drop-D"
+  className={`flex flex-col absolute top-[81px] right-0 z-[102] bg-[white] shadow-md p-5 ${stateFour}`}
+  onMouseOver={() => handleMegaMenus(4)}
+  onMouseOut={() => handleMegaMenus(8)}
+>
+  <a href="" className="p-2 text-[13px]">
+    About Almubdieuntech
+  </a>
+  <a href="" className="p-2 text-[13px]">
+    Life at Almubdieuntech
+  </a>
+  <a href="" className="p-2 text-[13px]">
+    Blogs
+  </a>
+  <a href="" className="p-2 text-[13px]">
+    Press
+  </a>
+  <a href="" className="p-2 text-[13px]">
+    Podcast
+  </a>
+  <a href="" className="p-2 text-[13px]">
+    Events
+  </a>
+  <a href="" className="p-2 text-[13px]">
+    Referral Program
+  </a>
+</section>
+
         </>
     )
 }

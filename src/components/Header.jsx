@@ -6,7 +6,7 @@ export default function Header() {
     const [stateOfMenu1, setStateOfMenu1] = useState("hidden");
     const [stateOfMenu2, setStateOfMenu2] = useState("hidden");
     const [stateOfMenu3, setStateOfMenu3] = useState("hidden");
-    const [stateOfMenus, setStateOfMenus] = useState("")
+    const [stateOfMenu4, setStateOfMenu4] = useState("hidden");
 
     function handleMegaMenus(num) {
         if (num == 1) {
@@ -19,17 +19,20 @@ export default function Header() {
             setStateOfMenu3("");
         }
         if (num == 4) {
-            setStateOfMenu1("hidden");
+            setStateOfMenu4("");
         }
         if (num == 5) {
-            setStateOfMenu2("hidden");
+            setStateOfMenu1("hidden");
         }
         if (num == 6) {
+            setStateOfMenu2("hidden");
+        }
+        if (num == 7) {
             setStateOfMenu3("hidden");
         }
-    }
-    function handleMenus(data) {
-        setStateOfMenus(data)
+        if (num == 8) {
+            setStateOfMenu4("hidden");
+        }
     }
 
     return (
@@ -85,7 +88,7 @@ export default function Header() {
                             </a>
                             <a
                                 href=""
-                                className="py-[30px] px-[18px] md:text-[11px] lg:text-[13px] font-[500] transition-all duration-800 relative"                            >
+                                className="py-[30px] px-[18px] md:text-[11px] lg:text-[13px] font-[500] transition-all duration-800 relative">
                                 Insights
                             </a>
                             <a
@@ -271,7 +274,7 @@ export default function Header() {
                     </a>
                 </div>
             </nav>
-            <HeaderDD stateOne={stateOfMenu1} stateTwo={stateOfMenu2} stateThree={stateOfMenu3} handleMenus={handleMenus} stateOfMenus={stateOfMenus} />
+            <HeaderDD stateOne={stateOfMenu1} stateTwo={stateOfMenu2} stateThree={stateOfMenu3} stateFour={stateOfMenu4} handleMegaMenus={handleMegaMenus} />
         </header>
 
     );
