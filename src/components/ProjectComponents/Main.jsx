@@ -5,6 +5,7 @@ import FeatureSlider from "../FeatureSlider";
 import TekrevolMainBanner from "./TekrevolMainBanner";
 import "/src/index.css"
 import Header from "../Header";
+import Footer from "../Footer";
 
 export default function Main() {
 
@@ -25,6 +26,7 @@ export default function Main() {
                     />
                 </section>
             </main>
+            <Footer />
         </>
     );
 }

@@ -57,7 +57,7 @@ export default function HeaderDD({ stateOne, stateTwo, stateThree, stateFour, ha
                 </div>
                 <div className="flex items-center text-[white] w-full bg-[#314252] mt-[45px]">
                     <div className="flex items-center ps-[175px] w-[25%]">
-                        <h4 className="2xl:text-[25px] menu-h">Core Services</h4>
+                        <h4 className="2xl:text-[25px] font-normal">Core Services</h4>
                     </div>
                     <div className="flex w-[25%] py-4">
                         <svg
@@ -173,7 +173,7 @@ export default function HeaderDD({ stateOne, stateTwo, stateThree, stateFour, ha
                 </div>
                 <div className="flex items-center text-[white] w-full bg-[#314252] mt-[45px]">
                     <div className="flex items-center ps-[175px] w-[25%]">
-                        <h4>Core Services</h4>
+                        <h4 className="font-normal">Core Services</h4>
                     </div>
                     <div className="flex w-[25%] py-4">
                         <svg
@@ -252,7 +252,7 @@ export default function HeaderDD({ stateOne, stateTwo, stateThree, stateFour, ha
             >
                 <div className="flex">
                     <div className="w-[25%] ps-[185px] flex flex-col">
-                        <h4 className="text-[black] font-[500] 2xl:text-[25px] menu-h">
+                        <h4 className="text-[black] font-normal 2xl:text-[25px] menu-h">
                             Our Technologies
                         </h4>
                     </div>

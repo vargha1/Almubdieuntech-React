@@ -4,11 +4,11 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import d1 from "../assets/d-1.png";
 
 export default function FeatureSlider() {
     return (
         <Swiper
+            loop={true}
             modules={[A11y]}
             spaceBetween={10}
             breakpoints={{
@@ -19,18 +19,16 @@ export default function FeatureSlider() {
                     slidesPerView: 4.3,
                 },
             }}
-            onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log('slide change')}
         >
-            <SwiperSlide><img src={d1} className="w-[40%]" alt="" /></SwiperSlide>
-            <SwiperSlide><img src={d1} className="w-[40%]" alt="" /></SwiperSlide>
-            <SwiperSlide><img src={d1} className="w-[40%]" alt="" /></SwiperSlide>
-            <SwiperSlide><img src={d1} className="w-[40%]" alt="" /></SwiperSlide>
-            <SwiperSlide><img src={d1} className="w-[40%]" alt="" /></SwiperSlide>
-            <SwiperSlide><img src={d1} className="w-[40%]" alt="" /></SwiperSlide>
-            <SwiperSlide><img src={d1} className="w-[40%]" alt="" /></SwiperSlide>
-            <SwiperSlide><img src={d1} className="w-[40%]" alt="" /></SwiperSlide>
-            <SwiperSlide><img src={d1} className="w-[40%]" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
             ...
         </Swiper>
     );

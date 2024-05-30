@@ -1,4 +1,3 @@
-import d1 from "/src/assets/d-1.png";
 import HeaderDD from "./HeaderDD";
 import { useState } from "react";
 export default function Header() {
@@ -35,11 +34,37 @@ export default function Header() {
         }
     }
 
+    function offcanvasHandler(state) {
+        if (state == "open") {
+            let offCanvas = document.getElementById("offCanvas");
+            offCanvas.classList.remove("left-[300%]")
+            offCanvas.classList.remove("opacity-0")
+            document.getElementById("cover").classList.remove("hidden");
+            document.addEventListener('wheel', preventScroll, { passive: false });
+            document.getElementById("openOffCanvas").classList.add("hidden");
+            document.getElementById("closeOffCanvas").classList.remove("hidden");
+        } else if (state == "close") {
+            let offCanvas = document.getElementById("offCanvas");
+            offCanvas.classList.add("left-[300%]")
+            offCanvas.classList.add("opacity-0")
+            document.getElementById("cover").classList.add("hidden");
+            document.removeEventListener('wheel', preventScroll, { passive: false });
+            document.getElementById("openOffCanvas").classList.remove("hidden");
+            document.getElementById("closeOffCanvas").classList.add("hidden");
+        }
+    }
+    function preventScroll(e) {
+        e.preventDefault();
+        e.stopPropagation();
+    
+        return false;
+    }
+
     return (
         <header className="flex flex-col justify-center items-center pb-3 mb-[100px]">
             <div className="flex justify-between fixed bg-[white] w-full shadow top-0 md:px-[8%] me-[5px] max-w-[1900px] before:fixed before:bg-inherit before:left-0 before:right-[5px] before:top-0 before:bottom-0 before:max-h-[81px] before:-z-[1] h-[81px] z-[100]">
                 <section className="flex items-center ps-4" id="logo">
-                    <img src={d1} className="w-[48px]" alt="" />
+                    <img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[48px]" alt="" />
                 </section>
                 <section className="hidden lg:block">
                     <nav className="flex relative">
@@ -106,6 +131,7 @@ export default function Header() {
                 <div
                     className="lg:hidden flex w-[32px] me-5"
                     id="openOffCanvas"
+                    onClick={() => offcanvasHandler("open")}
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -125,6 +151,7 @@ export default function Header() {
                 <div
                     className="lg:hidden flex w-[45px] overflow-hidden me-5 hidden"
                     id="closeOffCanvas"
+                    onClick={() => offcanvasHandler("close")}
                 >
                     <svg
                         fill="#314252"
