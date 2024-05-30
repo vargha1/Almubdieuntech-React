@@ -354,7 +354,7 @@ export default function HeaderDD({ stateOne, stateTwo, stateThree, stateFour, ha
             <section className="flex items-center max-w-[1900px] w-full md:px-[8%] relative">
                 <section
                     id="drop-D"
-                    className={`flex flex-col absolute top-[81px] right-[10%] z-[102] bg-[white] shadow-md p-5 ${stateFour}`}
+                    className={`flex flex-col fixed top-[81px] right-[10%] z-[102] bg-[white] shadow-md p-5 ${stateFour}`}
                     onMouseOver={() => handleMegaMenus(4)}
                     onMouseOut={() => handleMegaMenus(8)}
                 >

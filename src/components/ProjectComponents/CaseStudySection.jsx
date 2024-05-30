@@ -60,7 +60,7 @@ export default function CaseStudySection() {
             isSecond: false,
             category: "",
             id: 0,
-            title: "AMJ Workplace Wellnessasdas",
+            title: "AMJ Workplace Wellness",
             body: "Workplace Wellness is a cross-platform fitness app for companies who acknowledge the direct connection between employee wellbeing, productivity and organizational performance.",
             imgSrc: "/Almubdieuntech-React/Projects/AMJ-Workplace-Wellness-d7df7da287e29888b211a62f791b0c79.webp",
         },
@@ -103,7 +103,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "gaming",
             id: 5,
             title: "Find, Serve & Keep",
             body: "FSK by TekRevol transforms gaming with immersive match-3 puzzles and strategic time management challenges. A narrative-driven role-playing experience connects players to their virtual restaurant empires, blending creativity and strategy for a captivating adventure.",
@@ -139,7 +139,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "gaming",
             id: 9,
             title: "Ether Legends",
             body: 'Ether Legends is a "play to earn" collectible NFT - Blockchain Trading Card Game where players can earn trophies and claim rewards by winning matches!',
@@ -148,7 +148,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "healthcare",
             id: 10,
             title: "Milocare",
             body: "MiloCare + is a platform aiming to transform health record management systems - creating a seamless experience for patients.",
@@ -184,7 +184,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "healthcare",
             id: 14,
             title: "kinekt",
             body: "Kinekt is an innovative solution developed to empower care providers by gathering and deciphering patient feedback from varied sources.",
@@ -211,7 +211,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "EDU",
             id: 17,
             title: "Stop Vaping Challenge App",
             body: "To minimize vaping, Stop Vaping was designed to be a digital solution for teens and young adults to cut down on nicotine intake and e-cigarettes, and reduce adverse health effects.",
@@ -238,7 +238,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "EDU",
             id: 20,
             title: "Project Impact",
             body: "S.E.L.F Web App by Project Impact is a platform to increase productivity and efficiency of the students, teachers, parents.",
@@ -256,7 +256,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "healthcare",
             id: 22,
             title: "Nurse Practitioner",
             body: "The Nurse Practitioners application was built for a very specific reason – to revolutionize the healthcare system and convey the positive impact of technology to the end users.",
@@ -283,7 +283,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "gaming",
             id: 25,
             title: "Parcheesi Cash",
             body: "Parcheesi Cash is an online multiplayer Spanish board game that is a recreation of the Parcheesi – the national game of India since medieval times.",
@@ -301,7 +301,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "log",
             id: 27,
             title: "Stock n Ship",
             body: "Stock n Ship is a platform designed for businesses to manage their inventory, orders, product supplies, and customer refunds in a better-redefined manner through portals.",
@@ -310,7 +310,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "fashion",
             id: 28,
             title: "MoCuts",
             body: "MoCuts Pro is an online marketplace for booking registered barbers, beauticians, and other day-to-day barber services.",
@@ -319,7 +319,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "oilgas",
             id: 29,
             title: "NDE Offshore",
             body: "NDE Offshore is a Swedish offshore company founded in 2005, operating in Sweden, Europe, and the Middle East.",
@@ -382,7 +382,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "gaming",
             id: 37,
             title: "Button Smasher App",
             body: "ButtonSmasher is a complete solution for gaming enthusiasts. With an authentic rating and review system, it provides a way for gamers to stay updated with the latest news in the game industry.",
@@ -391,7 +391,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "gaming",
             id: 38,
             title: "Beach Bandits App",
             body: "Beach bandits is a one-stop solution, beach rental app that offers a wide variety of beach equipment and accessories for a fun day at the beach.",
@@ -400,7 +400,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "gaming",
             id: 39,
             title: "Novelcraft",
             body: "Inspired by the New York Times Best Seller, “Beautiful Disaster,” NovelCraft allows players to step in the shoes of favorite characters, and take control of their fates.",
@@ -418,7 +418,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "gaming",
             id: 41,
             title: "Picture Pick",
             body: "Everything begins with a crazy idea. The big idea for Picture Pick was to bring together two things that no one could refuse.",
@@ -445,7 +445,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "automobile",
             id: 44,
             title: "Select Dealer Website",
             body: "Select Dealer Service offers a complete partnership for their Dealer clients. They help their clients generate incremental income and offer exemplary services, support, and training.",
@@ -472,7 +472,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "oilgas",
             id: 47,
             title: "DreamEnergy",
             body: "Certified Business Energy Professionals and experienced industry experts offer unbiased advice, before and after sale consultation.",
@@ -481,7 +481,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "realEstate",
             id: 48,
             title: "RE4-Sale-Signs",
             body: "Tekrevol, design and development specialists build Re-Installer to be a modern, scalable, extensible, and secure platform that extend the capabilities of real estate professionals and deliver unmatched facilities.",
@@ -490,7 +490,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "log",
             id: 49,
             title: "Waste Connections RMO",
             body: "Waste Connections had a comprehensive web app solution to manage and optimize the route for truck drivers. Hence, they opted for RMO (Route Manager Online.",
@@ -499,7 +499,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "realEstate",
             id: 50,
             title: "Muirfield",
             body: "Today, technology is the key to turning strategies into sustainable returns. The real estate investment industry thrives on the flow, analysis.",
@@ -517,7 +517,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "log",
             id: 52,
             title: "Waste Management Solution",
             body: "We design tailor-made automation software for the waste management industry that are known to Augment ROI through Automation and Technology.",
@@ -526,7 +526,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "log",
             id: 53,
             title: "Superstar",
             body: "Superstar is an end-to-end digital platform that serves as a database for Waste Connections. The app also offered other features to the internal teams of Waste Connections.",
@@ -544,7 +544,7 @@ export default function CaseStudySection() {
         {
             isFirst: false,
             isSecond: false,
-            category: "",
+            category: "log",
             id: 55,
             title: "Waste Connections",
             body: "Waste Connections decided to leverage modern technologies to solve one of the world’s biggest problems, ‘waste and garbage disposal.",
@@ -598,20 +598,24 @@ export default function CaseStudySection() {
     ]
 
     function handleCategory(type) {
-        setFilteredProductList(data);
-        console.log(type);
+        setFilteredProductList(productList);
         if (type != null) {
             filteredProductList[0].isFirst = false;
+            filteredProductList[0].isSecond = false;
+            filteredProductList[1].isFirst = false;
             filteredProductList[1].isSecond = false;
             setFilteredProductList(filteredProductList.filter(product => {
                 return product.category == type;
             }))
             filteredProductList[0].isFirst = true;
+            filteredProductList[0].isSecond = false;
+            filteredProductList[1].isFirst = false;
             filteredProductList[1].isSecond = true;
         }
     }
     const [, updateState] = React.useState();
     const [filteredProductList, setFilteredProductList] = useState(data);
+    const [productList, setProductList] = useState(data);
     const forceUpdate = React.useCallback(() => updateState({}), []);
 
     return (
@@ -622,50 +626,50 @@ export default function CaseStudySection() {
                     <p>Explore TekRevol's exceptional portfolio to witness their transformative work in action, encompassing groundbreaking web and mobile applications, bespoke software development, and captivating digital experiences that push the boundaries of technology and drive business success</p>
                 </div>
                 <div className="flex relative w-full md:w-4/12">
-                    <button className="p-[10px] bg-[#efcb19] min-w-[250px] w-full h-[55px] ms-[33%] rounded-lg text-white" onClick={() => handleClick()}>Select Industry</button>
+                    <button className="p-[10px] bg-[#efcb19] w-full h-[55px] md:ms-[33%] rounded-lg text-white" onClick={() => handleClick()}>Select Industry</button>
                     <div id="wrapper1" className="flex flex-col absolute top-[60px] -right-[10px] p-5 bg-[#314252] min-w-[250px] w-[66%] rounded-lg text-white hidden">
-                        <a className="cursor-pointer" onClick={() => { handleCategory(null), forceUpdate() }}>All</a>
-                        <a className="cursor-pointer" onClick={() => { handleCategory("corporate"), forceUpdate() }}>Corporate</a>
-                        <a className="cursor-pointer" onClick={() => handleCategory("")}>Ecommerce</a>
-                        <a className="cursor-pointer" onClick={() => handleCategory("")}>Social</a>
-                        <a className="cursor-pointer" onClick={() => handleCategory("")}>Entertainment</a>
-                        <a className="cursor-pointer" onClick={() => handleCategory("")}>Fashion</a>
-                        <a className="cursor-pointer" onClick={() => handleCategory("")}>Gaming</a>
-                        <a className="cursor-pointer" onClick={() => handleCategory("")}>Healthcare</a>
-                        <a className="cursor-pointer" onClick={() => handleCategory("")}>Logistics</a>
-                        <a className="cursor-pointer" onClick={() => handleCategory("")}>Oil & Gas</a>
-                        <a className="cursor-pointer" onClick={() => handleCategory("")}>Real Estate</a>
-                        <a className="cursor-pointer" onClick={() => handleCategory("")}>Automobile</a>
-                        <a className="cursor-pointer" onClick={() => handleCategory("")}>Education</a>
+                        <a className="cursor-pointer" onClick={() => { forceUpdate(), handleCategory(null) }}>All</a>
+                        <a className="cursor-pointer" onClick={() => { forceUpdate(), handleCategory("corporate") }}>Corporate</a>
+                        <a className="cursor-pointer" onClick={() => { forceUpdate(), handleCategory("ecommerce") }}>Ecommerce</a>
+                        <a className="cursor-pointer" onClick={() => { forceUpdate(), handleCategory("social") }}>Social</a>
+                        <a className="cursor-pointer" onClick={() => { forceUpdate(), handleCategory("entertainment") }}>Entertainment</a>
+                        <a className="cursor-pointer" onClick={() => { forceUpdate(), handleCategory("fashion") }}>Fashion</a>
+                        <a className="cursor-pointer" onClick={() => { forceUpdate(), handleCategory("gaming") }}>Gaming</a>
+                        <a className="cursor-pointer" onClick={() => { forceUpdate(), handleCategory("healthcare") }}>Healthcare</a>
+                        <a className="cursor-pointer" onClick={() => { forceUpdate(), handleCategory("log") }}>Logistics</a>
+                        <a className="cursor-pointer" onClick={() => { forceUpdate(), handleCategory("oilgas") }}>Oil & Gas</a>
+                        <a className="cursor-pointer" onClick={() => { forceUpdate(), handleCategory("realEstate") }}>Real Estate</a>
+                        <a className="cursor-pointer" onClick={() => { forceUpdate(), handleCategory("automobile") }}>Automobile</a>
+                        <a className="cursor-pointer" onClick={() => { forceUpdate(), handleCategory("EDU") }}>Education</a>
                     </div>
                 </div>
             </div>
-            <div className="flex flex-wrap w-full container mt-[100px]">
+            <div className="flex md:flex-row flex-col md:flex-wrap w-full container mt-[100px]">
                 {filteredProductList.map(product => (
                     product.isSecond ? (
-                        <div className="flex flex-col w-1/2 py-5 px-8  items-center h-[813px]" key={product.id}>
+                        <div className="flex flex-col md:w-1/2 w-full py-5 px-8  items-center h-[813px]" key={product.id}>
                             {product.isFirst ? (
                                 <p className="font-[600] flex w-full mb-16 relative after:h-[1px] after:absolute after:right-0 after:top-5 after:w-[70%] after:bg-[#314252]">Our Case Study</p>
                             ) : null}
 
                             <img src={product.imgSrc} className="shadow-xl" alt="" />
-                            <div className="flex flex-col w-full relative px-[50px] mt-8 after:w-[1px] after:absolute after:bg-[#314252] after:top-0 after:bottom-0 after:left-[10px]">
+                            <div className="flex flex-col w-full relative px-[8%] mt-8 after:w-[1px] after:absolute after:bg-[#314252] after:top-0 after:bottom-0 after:left-[10px]">
                                 <h4 className="font-bold">{product.title}</h4>
-                                <p className="md:leading-7">{product.body}</p>
-                                <button className="w-1/2 rounded-full border-2 border-[#efcb19] text-[#efcb19] h-[40px] mt-8 hover:text-white hover:bg-[#efcb19] transition-all duration-500">View Case Study</button>
+                                <p className="lg:leading-7 md:leading-6">{product.body}</p>
+                                <button className="lg:w-1/2 md:w-3/4 rounded-full border-2 border-[#efcb19] text-[#efcb19] h-[40px] mt-[4%] hover:text-white hover:bg-[#efcb19] transition-all duration-500">View Case Study</button>
                             </div>
                         </div>
                     ) : (
-                        <div className="flex flex-col w-1/2 py-5 px-8 items-center" key={product.id}>
+                        <div className="flex flex-col md:w-1/2 w-full py-5 px-8 items-center" key={product.id}>
                             {product.isFirst ? (
                                 <p className="font-[600] flex w-full mb-16 relative after:h-[1px] after:absolute after:right-0 after:top-5 after:w-[70%] after:bg-[#314252]">Our Case Study</p>
                             ) : null}
 
                             <img src={product.imgSrc} className="shadow-xl" alt="" />
-                            <div className="flex flex-col w-full relative px-[50px] mt-8 after:w-[1px] after:absolute after:bg-[#314252] after:top-0 after:bottom-0 after:left-[10px]">
+                            <div className="flex flex-col w-full relative px-[8%] mt-8 after:w-[1px] after:absolute after:bg-[#314252] after:top-0 after:bottom-0 after:left-[10px]">
                                 <h4 className="font-bold">{product.title}</h4>
-                                <p className="md:leading-7">{product.body}</p>
-                                <button className="w-1/2 rounded-full border-2 border-[#efcb19] text-[#efcb19] h-[40px] mt-8 hover:text-white hover:bg-[#efcb19] transition-all duration-500">View Case Study</button>
+                                <p className="lg:leading-7 md:leading-6">{product.body}</p>
+                                <button className="lg:w-1/2 md:w-3/4 rounded-full border-2 border-[#efcb19] text-[#efcb19] h-[40px] mt-[4%] hover:text-white hover:bg-[#efcb19] transition-all duration-500">View Case Study</button>
                             </div>
                         </div>
                     )
