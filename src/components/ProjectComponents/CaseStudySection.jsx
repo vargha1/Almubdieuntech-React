@@ -598,7 +598,9 @@ export default function CaseStudySection() {
     ]
 
     function handleCategory(type) {
-        setFilteredProductList(productList);
+        console.log(filteredProductList);
+        setFilteredProductList(data);
+        console.log(filteredProductList);
         if (type != null) {
             filteredProductList[0].isFirst = false;
             filteredProductList[0].isSecond = false;
@@ -613,7 +615,7 @@ export default function CaseStudySection() {
             filteredProductList[1].isSecond = true;
         }
     }
-    const [, updateState] = React.useState();
+    const [, updateState] = useState();
     const [filteredProductList, setFilteredProductList] = useState(data);
     const [productList, setProductList] = useState(data);
     const forceUpdate = React.useCallback(() => updateState({}), []);

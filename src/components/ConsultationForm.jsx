@@ -2,7 +2,7 @@ import "/src/index.css"
 
 export default function ConsultationForm() {
     return (
-        <div className="flex flex-col lg:w-[33%] md:w-[45%] sm:w-[60%] w-full mx-[4%] relative lg:-top-[90px] bg-[#ffffff] p-10 shadow-lg rounded-2xl">
+        <div className="flex flex-col lg:w-[33%] md:w-[45%] sm:w-[60%] w-full mx-[4%] relative lg:-top-[90px] lg:-right-[6%] bg-[#ffffff] p-10 shadow-lg rounded-2xl">
             <h2 className="font-bold">
                 Book a Free <span className="text-[#efcb19]">Consultation</span>
             </h2>
