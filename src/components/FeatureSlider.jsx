@@ -20,15 +20,15 @@ export default function FeatureSlider() {
                 },
             }}
         >
-            <SwiperSlide><img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
-            <SwiperSlide><img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
-            <SwiperSlide><img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
-            <SwiperSlide><img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
-            <SwiperSlide><img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
-            <SwiperSlide><img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
-            <SwiperSlide><img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
-            <SwiperSlide><img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
-            <SwiperSlide><img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/Projects/d-1.png" className="w-[40%]" alt="" /></SwiperSlide>
             ...
         </Swiper>
     );

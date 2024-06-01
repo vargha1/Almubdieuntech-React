@@ -1,49 +1,49 @@
 import { useState } from "react";
 import React from 'react'
-let RevCoin = "/Almubdieuntech-React/Projects/Rev-Coin-case-study-image-04686894a3b47de890856f49b80e1a5c.webp";
-let StopVape = "/Almubdieuntech-React/Projects/Stop-Vaping-7091022dd8e7e4c21ed66df5f2777f61.webp";
-let OnSite = "/Almubdieuntech-React/Projects/Onsite-79e4c6ef0484852c3ece40885b230389.webp";
-let HDE = "/Almubdieuntech-React/Projects/High-Def-Events-a322bf992e89a0d5df76cd64b03c97d0.webp";
-let Impact = "/Almubdieuntech-React/Projects/Project-Impact-b040f4a96670af6fc8544bf8b960960b.webp";
-let Soundly = "/Almubdieuntech-React/Projects/Soundly-6f46a71cce49cb7ac3a358756a10f870.webp";
-let Nurse = "/Almubdieuntech-React/Projects/Nurse-practitioner-7d9b8e9e65b72de2a328a10b63be39f3.webp";
-let SV = "/Almubdieuntech-React/Projects/Save-Win-8f7efc5871f8ddc1e57d3cad63a38134.webp";
-let AlHossein = "/Almubdieuntech-React/Projects/Al-Hussaini-7ebb2bb2ca6e101cff89077bfc006adf.webp";
-let PCash = "/Almubdieuntech-React/Projects/Parcheesi-Cash-12e0dbe931e65112257163e15d85e4a0.webp";
-let Selah = "/Almubdieuntech-React/Projects/Selah-c668082de800579542321c7f6eb10606.webp";
-let StocknShip = "/Almubdieuntech-React/Projects/Stock-n-Ship-362478b9193a8dd09ca631c6837c2f6b.webp";
-let Mocuts = "/Almubdieuntech-React/Projects/MoCuts-503ae546a2686e66ec20788db3a3b038.webp";
-let NDE = "/Almubdieuntech-React/Projects/NDE-Offshore-16e5dd8df4d9638bc42720cb5cffbd2f.webp";
-let SmartID = "/Almubdieuntech-React/Projects/Smart-ID-038c5ba29281adcae395701a34d2c0a2.webp";
-let Equitrip = "/Almubdieuntech-React/Projects/Equitrip-41db5739d048ae110d99b83aa2ce50ee.webp";
-let Kushme = "/Almubdieuntech-React/Projects/kush-Me-362180746a7e7d796cb5252754075b9d.webp";
-let PassionPainting = "/Almubdieuntech-React/Projects/Passion-Painting-64e99c996f50dce0d744bea83b26baf3.webp";
-let IntoGo = "/Almubdieuntech-React/Projects/Into-Go-016525282e2249aeb748a78d0eb9728a.webp";
-let qRoll = "/Almubdieuntech-React/Projects/qRoll-105633e74736dbeb643224ce28757ccb.webp";
-let BtnSmasher = "/Almubdieuntech-React/Projects/Button-Smasher-App-0565f0fc714c3e6bb830ba38ce6252e1.webp";
-let bandits = "/Almubdieuntech-React/Projects/Beach-Bandits-App-39268f337c69135f1ff85b10b83a1567.webp";
-let NovelCraft = "/Almubdieuntech-React/Projects/Novelcraft-c5ca9680a5df9d64e4822d3560012b31.webp";
-let ArrRec = "/Almubdieuntech-React/Projects/Arrow-Recovery-App-3f351dfd3d08698d5a4ac2762d2a4ca9.webp";
-let PicturePick = "/Almubdieuntech-React/Projects/Picture-Pick-8a775ac37a3a8a892c085422a1daf385.webp";
-let IRemembered = "/Almubdieuntech-React/Projects/I-Remembered-eff27fd1b77f58d2e9e361a457a6a913.webp";
-let TVM = "/Almubdieuntech-React/Projects/True-Vine-Media-44f541e5c9dda05cefadfa0ff98d6b4d.webp";
-let SDW = "/Almubdieuntech-React/Projects/Select-Dealer-4ba2dfc4500061a241aa119ea400e85c.webp";
-let MartBook = "/Almubdieuntech-React/Projects/Martbook-28587bd11f03bd568331f3f105d47d7d.webp";
-let Talpool = "/Almubdieuntech-React/Projects/Talpool-5534607799c5d11b5d985509a0f75994.webp";
-let DreamEnergy = "/Almubdieuntech-React/Projects/DreamEnergy-abdf116dd7322c26fb76c3cc33a0c3e2.webp";
-let RE4Sale = "/Almubdieuntech-React/Projects/RE4-Sale-Signs-e3697456f006a80f3991d4dcae602e26.webp";
-let WCR = "/Almubdieuntech-React/Projects/Waste-Connections-RMO-f82b4fb8856804f1687b0a2e4e7ee29c.webp";
-let Muirfield = "/Almubdieuntech-React/Projects/Muirfield-2c93a5ab7cfbe898ec8083a1a2f760dd.webp";
-let UNA = "/Almubdieuntech-React/Projects/UNA-31ec15630ce381a528c1f1172a1e75fd.webp";
-let WMS = "/Almubdieuntech-React/Projects/Waste-Management-Solution-f9a5e076406445036dd927871cea6890.webp";
-let SuperStar = "/Almubdieuntech-React/Projects/Superstar-3632366e18395b9134dca2966a657dde.webp";
-let BOB = "/Almubdieuntech-React/Projects/B.O.B-e967b1177588094259eaf418799b476c.webp";
-let WC = "/Almubdieuntech-React/Projects/Waste-Connections-84ddbd53d7b62dc9dc4811dacae80055.webp";
-let VerteranApp = "/Almubdieuntech-React/Projects/Veteran-App-2e5e68960e0529e7afa27feb235a845e.webp";
-let SmackBack = "/Almubdieuntech-React/Projects/Smackback-1532a829a0d27abc7e572813a485342f.webp";
-let OzLeazing = "/Almubdieuntech-React/Projects/Oz-Leasing-744402995fbc91bb1c1394c4037503e2.webp";
-let Mobius = "/Almubdieuntech-React/Projects/Mobius-a9b68b02975de423df2a581e07888af7.webp";
-let MoodBe = "/Almubdieuntech-React/Projects/Moodbe-710742eee28ce9861451564efbd9ad83.webp";
+let RevCoin = "/Projects/Rev-Coin-case-study-image-04686894a3b47de890856f49b80e1a5c.webp";
+let StopVape = "/Projects/Stop-Vaping-7091022dd8e7e4c21ed66df5f2777f61.webp";
+let OnSite = "/Projects/Onsite-79e4c6ef0484852c3ece40885b230389.webp";
+let HDE = "/Projects/High-Def-Events-a322bf992e89a0d5df76cd64b03c97d0.webp";
+let Impact = "/Projects/Project-Impact-b040f4a96670af6fc8544bf8b960960b.webp";
+let Soundly = "/Projects/Soundly-6f46a71cce49cb7ac3a358756a10f870.webp";
+let Nurse = "/Projects/Nurse-practitioner-7d9b8e9e65b72de2a328a10b63be39f3.webp";
+let SV = "/Projects/Save-Win-8f7efc5871f8ddc1e57d3cad63a38134.webp";
+let AlHossein = "/Projects/Al-Hussaini-7ebb2bb2ca6e101cff89077bfc006adf.webp";
+let PCash = "/Projects/Parcheesi-Cash-12e0dbe931e65112257163e15d85e4a0.webp";
+let Selah = "/Projects/Selah-c668082de800579542321c7f6eb10606.webp";
+let StocknShip = "/Projects/Stock-n-Ship-362478b9193a8dd09ca631c6837c2f6b.webp";
+let Mocuts = "/Projects/MoCuts-503ae546a2686e66ec20788db3a3b038.webp";
+let NDE = "/Projects/NDE-Offshore-16e5dd8df4d9638bc42720cb5cffbd2f.webp";
+let SmartID = "/Projects/Smart-ID-038c5ba29281adcae395701a34d2c0a2.webp";
+let Equitrip = "/Projects/Equitrip-41db5739d048ae110d99b83aa2ce50ee.webp";
+let Kushme = "/Projects/kush-Me-362180746a7e7d796cb5252754075b9d.webp";
+let PassionPainting = "/Projects/Passion-Painting-64e99c996f50dce0d744bea83b26baf3.webp";
+let IntoGo = "/Projects/Into-Go-016525282e2249aeb748a78d0eb9728a.webp";
+let qRoll = "/Projects/qRoll-105633e74736dbeb643224ce28757ccb.webp";
+let BtnSmasher = "/Projects/Button-Smasher-App-0565f0fc714c3e6bb830ba38ce6252e1.webp";
+let bandits = "/Projects/Beach-Bandits-App-39268f337c69135f1ff85b10b83a1567.webp";
+let NovelCraft = "/Projects/Novelcraft-c5ca9680a5df9d64e4822d3560012b31.webp";
+let ArrRec = "/Projects/Arrow-Recovery-App-3f351dfd3d08698d5a4ac2762d2a4ca9.webp";
+let PicturePick = "/Projects/Picture-Pick-8a775ac37a3a8a892c085422a1daf385.webp";
+let IRemembered = "/Projects/I-Remembered-eff27fd1b77f58d2e9e361a457a6a913.webp";
+let TVM = "/Projects/True-Vine-Media-44f541e5c9dda05cefadfa0ff98d6b4d.webp";
+let SDW = "/Projects/Select-Dealer-4ba2dfc4500061a241aa119ea400e85c.webp";
+let MartBook = "/Projects/Martbook-28587bd11f03bd568331f3f105d47d7d.webp";
+let Talpool = "/Projects/Talpool-5534607799c5d11b5d985509a0f75994.webp";
+let DreamEnergy = "/Projects/DreamEnergy-abdf116dd7322c26fb76c3cc33a0c3e2.webp";
+let RE4Sale = "/Projects/RE4-Sale-Signs-e3697456f006a80f3991d4dcae602e26.webp";
+let WCR = "/Projects/Waste-Connections-RMO-f82b4fb8856804f1687b0a2e4e7ee29c.webp";
+let Muirfield = "/Projects/Muirfield-2c93a5ab7cfbe898ec8083a1a2f760dd.webp";
+let UNA = "/Projects/UNA-31ec15630ce381a528c1f1172a1e75fd.webp";
+let WMS = "/Projects/Waste-Management-Solution-f9a5e076406445036dd927871cea6890.webp";
+let SuperStar = "/Projects/Superstar-3632366e18395b9134dca2966a657dde.webp";
+let BOB = "/Projects/B.O.B-e967b1177588094259eaf418799b476c.webp";
+let WC = "/Projects/Waste-Connections-84ddbd53d7b62dc9dc4811dacae80055.webp";
+let VerteranApp = "/Projects/Veteran-App-2e5e68960e0529e7afa27feb235a845e.webp";
+let SmackBack = "/Projects/Smackback-1532a829a0d27abc7e572813a485342f.webp";
+let OzLeazing = "/Projects/Oz-Leasing-744402995fbc91bb1c1394c4037503e2.webp";
+let Mobius = "/Projects/Mobius-a9b68b02975de423df2a581e07888af7.webp";
+let MoodBe = "/Projects/Moodbe-710742eee28ce9861451564efbd9ad83.webp";
 
 export default function CaseStudySection() {
     function handleClick() {
@@ -62,7 +62,7 @@ export default function CaseStudySection() {
             id: 0,
             title: "AMJ Workplace Wellness",
             body: "Workplace Wellness is a cross-platform fitness app for companies who acknowledge the direct connection between employee wellbeing, productivity and organizational performance.",
-            imgSrc: "/Almubdieuntech-React/Projects/AMJ-Workplace-Wellness-d7df7da287e29888b211a62f791b0c79.webp",
+            imgSrc: "/Projects/AMJ-Workplace-Wellness-d7df7da287e29888b211a62f791b0c79.webp",
         },
         {
             isFirst: false,
@@ -71,7 +71,7 @@ export default function CaseStudySection() {
             id: 1,
             title: "Pure Plank",
             body: "Plank is an online platform for fitness and exercise enthusiasts aiming to look after their health and exercise at home.",
-            imgSrc: "/Almubdieuntech-React/Projects/Pure-Plank-6ab45fef1953a122beac7d4413605b20.webp",
+            imgSrc: "/Projects/Pure-Plank-6ab45fef1953a122beac7d4413605b20.webp",
         },
         {
             isFirst: false,
@@ -80,7 +80,7 @@ export default function CaseStudySection() {
             id: 2,
             title: "Rodeo",
             body: "Rodeo Social stands as an efficiently interactive platform in the realm of social media management.",
-            imgSrc: "/Almubdieuntech-React/Projects/Rodeo-b9267c2e104d319cd4f8f2f19cad7cce.webp",
+            imgSrc: "/Projects/Rodeo-b9267c2e104d319cd4f8f2f19cad7cce.webp",
         },
         {
             isFirst: false,
@@ -89,7 +89,7 @@ export default function CaseStudySection() {
             id: 3,
             title: "Mdrouz",
             body: "Mdrouz is a cutting-edge multi-vendor e-commerce mobile application developed by TekRevol for the GCC region.",
-            imgSrc: "/Almubdieuntech-React/Projects/mdrouz-efa475ad64e4a1f3162fd134a0b5257b.webp",
+            imgSrc: "/Projects/mdrouz-efa475ad64e4a1f3162fd134a0b5257b.webp",
         },
         {
             isFirst: false,
@@ -98,7 +98,7 @@ export default function CaseStudySection() {
             id: 4,
             title: "Truth GPT",
             body: "TruthGPT, an AI-powered mobile app designed to provide users with unbiased, transparent, and easily accessible information through a chatbot interface.",
-            imgSrc: "/Almubdieuntech-React/Projects/Truth_gpt-daeb15abc302c450f096fde5d34cc949.webp",
+            imgSrc: "/Projects/Truth_gpt-daeb15abc302c450f096fde5d34cc949.webp",
         },
         {
             isFirst: false,
@@ -107,7 +107,7 @@ export default function CaseStudySection() {
             id: 5,
             title: "Find, Serve & Keep",
             body: "FSK by TekRevol transforms gaming with immersive match-3 puzzles and strategic time management challenges. A narrative-driven role-playing experience connects players to their virtual restaurant empires, blending creativity and strategy for a captivating adventure.",
-            imgSrc: "/Almubdieuntech-React/Projects/FSK-ef36f9fa016e91760a49c38f32ad5161.webp",
+            imgSrc: "/Projects/FSK-ef36f9fa016e91760a49c38f32ad5161.webp",
         },
         {
             isFirst: false,
@@ -116,7 +116,7 @@ export default function CaseStudySection() {
             id: 6,
             title: "Yeppy",
             body: "Yeppy Super App revolutionizes daily life, offering Financial, Booking, Retail, and Exclusive services in one seamless platform. Striving for global dominance, Yeppy builds partnerships, prioritizes secure payments, and ensures a user-friendly interface for diverse needs.",
-            imgSrc: "/Almubdieuntech-React/Projects/Yeppy-15b2693e5b6a177e3aa51e677af4e626.webp",
+            imgSrc: "/Projects/Yeppy-15b2693e5b6a177e3aa51e677af4e626.webp",
         },
         {
             isFirst: false,
@@ -125,7 +125,7 @@ export default function CaseStudySection() {
             id: 7,
             title: "C-more",
             body: "In collaboration with a construction industry partner, TekRevol introduces C-More—an e-commerce app designed for construction material stores and builders. The focus is on streamlining procurement processes, enhancing operational efficiency, and delivering a user-friendly platform that transforms the construction commerce sector.",
-            imgSrc: "/Almubdieuntech-React/Projects/Cmore-a72b1a22036aa984459cc69154be40f3.webp",
+            imgSrc: "/Projects/Cmore-a72b1a22036aa984459cc69154be40f3.webp",
         },
         {
             isFirst: false,
@@ -134,7 +134,7 @@ export default function CaseStudySection() {
             id: 8,
             title: "Teemates",
             body: "TeeMates is a social media app for golfers where they can connect, network and share their golfing stories through TeeTimes with other buddies around the world.",
-            imgSrc: "/Almubdieuntech-React/Projects/TeeMates-a7dd3cfee5002350cd3d075ddbfe6d9c.webp",
+            imgSrc: "/Projects/TeeMates-a7dd3cfee5002350cd3d075ddbfe6d9c.webp",
         },
         {
             isFirst: false,
@@ -143,7 +143,7 @@ export default function CaseStudySection() {
             id: 9,
             title: "Ether Legends",
             body: 'Ether Legends is a "play to earn" collectible NFT - Blockchain Trading Card Game where players can earn trophies and claim rewards by winning matches!',
-            imgSrc: "/Almubdieuntech-React/Projects/Ether-Legends-7f5375de7497108b224099628da7515a.webp",
+            imgSrc: "/Projects/Ether-Legends-7f5375de7497108b224099628da7515a.webp",
         },
         {
             isFirst: false,
@@ -152,7 +152,7 @@ export default function CaseStudySection() {
             id: 10,
             title: "Milocare",
             body: "MiloCare + is a platform aiming to transform health record management systems - creating a seamless experience for patients.",
-            imgSrc: "/Almubdieuntech-React/Projects/milocare-ebd5d3f2fd5aaf695cb85a20932ea3ea.webp",
+            imgSrc: "/Projects/milocare-ebd5d3f2fd5aaf695cb85a20932ea3ea.webp",
         },
         {
             isFirst: false,
@@ -161,7 +161,7 @@ export default function CaseStudySection() {
             id: 11,
             title: "Point2 Design",
             body: "Point 2 Design is an innovative platform dedicated to digitalization of customized order handling.",
-            imgSrc: "/Almubdieuntech-React/Projects/point2-design-dc1736ca7a8d2c962d1f8aa9cb6d5808.webp",
+            imgSrc: "/Projects/point2-design-dc1736ca7a8d2c962d1f8aa9cb6d5808.webp",
         },
         {
             isFirst: false,
@@ -170,7 +170,7 @@ export default function CaseStudySection() {
             id: 12,
             title: "Peanut Butter",
             body: "Peanut Butter Park is the ultimate app for dog owners in the United States! We designed this app to help dog owners connect with other pet parents, find local resources, and receive real-time safety alerts, all in one convenient place.",
-            imgSrc: "/Almubdieuntech-React/Projects/Peanut-Butter-a1ec857163f10ce7fd5fa0e7930eb824.webp",
+            imgSrc: "/Projects/Peanut-Butter-a1ec857163f10ce7fd5fa0e7930eb824.webp",
         },
         {
             isFirst: false,
@@ -179,7 +179,7 @@ export default function CaseStudySection() {
             id: 13,
             title: "Our Chat",
             body: "OurChat is a paid texting service that connects you with a range of professionals at your fingertips.",
-            imgSrc: "/Almubdieuntech-React/Projects/our-chat-7821c8729be8301b204cb77f17666c48.webp",
+            imgSrc: "/Projects/our-chat-7821c8729be8301b204cb77f17666c48.webp",
         },
         {
             isFirst: false,
@@ -188,7 +188,7 @@ export default function CaseStudySection() {
             id: 14,
             title: "kinekt",
             body: "Kinekt is an innovative solution developed to empower care providers by gathering and deciphering patient feedback from varied sources.",
-            imgSrc: "/Almubdieuntech-React/Projects/kinekt-2294a3d1e73ccc504a3d28a7c625c07d.webp",
+            imgSrc: "/Projects/kinekt-2294a3d1e73ccc504a3d28a7c625c07d.webp",
         },
         {
             isFirst: false,
@@ -197,7 +197,7 @@ export default function CaseStudySection() {
             id: 15,
             title: "Reck'N",
             body: "In a world where dining out sees digital novelty, TekRevol brought the Reck’N mobile app to life—a ground breaking resolution that redefines restaurant experiences.",
-            imgSrc: "/Almubdieuntech-React/Projects/reck-n-1f8b51751c733af203514c19b7c6ab75.webp",
+            imgSrc: "/Projects/reck-n-1f8b51751c733af203514c19b7c6ab75.webp",
         },
         {
             isFirst: false,
@@ -597,22 +597,15 @@ export default function CaseStudySection() {
         },
     ]
 
-    function handleCategory(type) {
-        console.log(filteredProductList);
-        setFilteredProductList(data);
-        console.log(filteredProductList);
+    const handleCategory = (type) => {
         if (type != null) {
-            filteredProductList[0].isFirst = false;
-            filteredProductList[0].isSecond = false;
-            filteredProductList[1].isFirst = false;
-            filteredProductList[1].isSecond = false;
-            setFilteredProductList(filteredProductList.filter(product => {
+            productList[0].isFirst = false;
+            productList[1].isSecond = false;
+            setProductList(filteredProductList.filter(product => {
                 return product.category == type;
             }))
-            filteredProductList[0].isFirst = true;
-            filteredProductList[0].isSecond = false;
-            filteredProductList[1].isFirst = false;
-            filteredProductList[1].isSecond = true;
+            productList[0].isFirst = true;
+            productList[1].isSecond = true;
         }
     }
     const [, updateState] = useState();
@@ -647,7 +640,7 @@ export default function CaseStudySection() {
                 </div>
             </div>
             <div className="flex md:flex-row flex-col md:flex-wrap w-full container mt-[100px]">
-                {filteredProductList.map(product => (
+                {productList.map(product => (
                     product.isSecond ? (
                         <div className="flex flex-col md:w-1/2 w-full py-5 px-8  items-center h-[813px]" key={product.id}>
                             {product.isFirst ? (

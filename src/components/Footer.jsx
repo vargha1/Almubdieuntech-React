@@ -19,58 +19,58 @@ export default function Footer() {
                 </div>
                 <div className="md:flex flex-wrap md:px-[8%] max-w-[1900px] hidden">
                     <div className="flex justify-center items-center lg:w-1/6 md:w-1/4 w-1/3 px-6 border-trans2">
-                        <img src="/Almubdieuntech-React/Projects/d-1.png" alt="logo" />
+                        <img src="/Projects/d-1.png" alt="logo" />
                     </div>
                     <div className="flex justify-center items-center lg:w-1/6 md:w-1/4 w-1/3 px-6 border-trans2">
-                        <img src="/Almubdieuntech-React/Projects/d-1.png" alt="logo" />
+                        <img src="/Projects/d-1.png" alt="logo" />
                     </div>
                     <div className="flex justify-center items-center lg:w-1/6 md:w-1/4 w-1/3 px-6 border-trans2">
-                        <img src="/Almubdieuntech-React/Projects/d-1.png" alt="logo" />
+                        <img src="/Projects/d-1.png" alt="logo" />
                     </div>
                     <div className="flex justify-center items-center lg:w-1/6 md:w-1/4 w-1/3 px-6 border-trans2">
-                        <img src="/Almubdieuntech-React/Projects/d-1.png" alt="logo" />
+                        <img src="/Projects/d-1.png" alt="logo" />
                     </div>
                     <div className="flex justify-center items-center lg:w-1/6 md:w-1/4 w-1/3 px-6 border-trans2">
-                        <img src="/Almubdieuntech-React/Projects/d-1.png" alt="logo" />
+                        <img src="/Projects/d-1.png" alt="logo" />
                     </div>
                     <div className="flex justify-center items-center lg:w-1/6 md:w-1/4 w-1/3 px-6 border-trans2">
-                        <img src="/Almubdieuntech-React/Projects/d-1.png" alt="logo" />
+                        <img src="/Projects/d-1.png" alt="logo" />
                     </div>
                     <div className="flex justify-center items-center lg:w-1/6 md:w-1/4 w-1/3 px-6 border-trans2">
-                        <img src="/Almubdieuntech-React/Projects/d-1.png" alt="logo" />
+                        <img src="/Projects/d-1.png" alt="logo" />
                     </div>
                     <div className="flex justify-center items-center lg:w-1/6 md:w-1/4 w-1/3 px-6 border-trans2">
-                        <img src="/Almubdieuntech-React/Projects/d-1.png" alt="logo" />
+                        <img src="/Projects/d-1.png" alt="logo" />
                     </div>
                     <div className="flex justify-center items-center lg:w-1/6 md:w-1/4 w-1/3 px-6 border-trans2">
-                        <img src="/Almubdieuntech-React/Projects/d-1.png" alt="logo" />
+                        <img src="/Projects/d-1.png" alt="logo" />
                     </div>
                     <div className="flex justify-center items-center lg:w-1/6 md:w-1/4 w-1/3 px-6 border-trans2">
-                        <img src="/Almubdieuntech-React/Projects/d-1.png" alt="logo" />
+                        <img src="/Projects/d-1.png" alt="logo" />
                     </div>
                     <div className="flex justify-center items-center lg:w-1/6 md:w-1/4 w-1/3 px-6 border-trans2">
-                        <img src="/Almubdieuntech-React/Projects/d-1.png" alt="logo" />
+                        <img src="/Projects/d-1.png" alt="logo" />
                     </div>
                     <div className="flex justify-center items-center lg:w-1/6 md:w-1/4 w-1/3 px-6 border-trans2">
-                        <img src="/Almubdieuntech-React/Projects/d-1.png" alt="logo" />
+                        <img src="/Projects/d-1.png" alt="logo" />
                     </div>
                     <div className="flex justify-center items-center lg:w-1/6 md:w-1/4 w-1/3 px-6 border-trans2">
-                        <img src="/Almubdieuntech-React/Projects/d-1.png" alt="logo" />
+                        <img src="/Projects/d-1.png" alt="logo" />
                     </div>
                     <div className="flex justify-center items-center lg:w-1/6 md:w-1/4 w-1/3 px-6 border-trans2">
-                        <img src="/Almubdieuntech-React/Projects/d-1.png" alt="logo" />
+                        <img src="/Projects/d-1.png" alt="logo" />
                     </div>
                     <div className="flex justify-center items-center lg:w-1/6 md:w-1/4 w-1/3 px-6 border-trans2">
-                        <img src="/Almubdieuntech-React/Projects/d-1.png" alt="logo" />
+                        <img src="/Projects/d-1.png" alt="logo" />
                     </div>
                     <div className="flex justify-center items-center lg:w-1/6 md:w-1/4 w-1/3 px-6 border-trans2">
-                        <img src="/Almubdieuntech-React/Projects/d-1.png" alt="logo" />
+                        <img src="/Projects/d-1.png" alt="logo" />
                     </div>
                     <div className="flex justify-center items-center lg:w-1/6 md:w-1/4 w-1/3 px-6 border-trans2">
-                        <img src="/Almubdieuntech-React/Projects/d-1.png" alt="logo" />
+                        <img src="/Projects/d-1.png" alt="logo" />
                     </div>
                     <div className="flex justify-center items-center lg:w-1/6 md:w-1/4 w-1/3 px-6 border-trans2">
-                        <img src="/Almubdieuntech-React/Projects/d-1.png" alt="logo" />
+                        <img src="/Projects/d-1.png" alt="logo" />
                     </div>
                 </div>
                 <div className="overflow-hidden flex md:hidden w-full md:px-[8%] max-w-[1900px]">
@@ -88,58 +88,58 @@ export default function Footer() {
                         }}
                     >
                         <SwiperSlide className="border-trans">
-                            <img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[50%]" alt="" />
+                            <img src="/Projects/d-1.png" className="w-[50%]" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className="border-trans">
-                            <img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[50%]" alt="" />
+                            <img src="/Projects/d-1.png" className="w-[50%]" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className="border-trans flex justify-center">
                             <p>.</p>
                         </SwiperSlide>
                         <SwiperSlide className="border-trans">
-                            <img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[50%]" alt="" />
+                            <img src="/Projects/d-1.png" className="w-[50%]" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className="border-trans">
-                            <img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[50%]" alt="" />
+                            <img src="/Projects/d-1.png" className="w-[50%]" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className="border-trans">
-                            <img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[50%]" alt="" />
+                            <img src="/Projects/d-1.png" className="w-[50%]" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className="border-trans">
-                            <img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[50%]" alt="" />
+                            <img src="/Projects/d-1.png" className="w-[50%]" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className="border-trans">
-                            <img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[50%]" alt="" />
+                            <img src="/Projects/d-1.png" className="w-[50%]" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className="border-trans">
-                            <img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[50%]" alt="" />
+                            <img src="/Projects/d-1.png" className="w-[50%]" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className="border-trans">
-                            <img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[50%]" alt="" />
+                            <img src="/Projects/d-1.png" className="w-[50%]" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className="border-trans">
-                            <img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[50%]" alt="" />
+                            <img src="/Projects/d-1.png" className="w-[50%]" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className="border-trans flex justify-center">
-                            <img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[50%]" alt="" />
+                            <img src="/Projects/d-1.png" className="w-[50%]" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className="border-trans">
-                            <img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[50%]" alt="" />
+                            <img src="/Projects/d-1.png" className="w-[50%]" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className="border-trans">
-                            <img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[50%]" alt="" />
+                            <img src="/Projects/d-1.png" className="w-[50%]" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className="border-trans">
-                            <img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[50%]" alt="" />
+                            <img src="/Projects/d-1.png" className="w-[50%]" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className="border-trans">
-                            <img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[50%]" alt="" />
+                            <img src="/Projects/d-1.png" className="w-[50%]" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className="border-trans">
-                            <img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[50%]" alt="" />
+                            <img src="/Projects/d-1.png" className="w-[50%]" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className="border-trans">
-                            <img src="/Almubdieuntech-React/Projects/d-1.png" className="w-[50%]" alt="" />
+                            <img src="/Projects/d-1.png" className="w-[50%]" alt="" />
                         </SwiperSlide>
                     </Swiper>
                 </div>
